@@ -8,7 +8,7 @@ public class BibliotecaService {
 
     private final Map<String, Libro> libros = new HashMap<>();
 
-    // Regex básica ISBN con guiones opcionales
+
     private static final Pattern ISBN_PATTERN =
             Pattern.compile("^[0-9\\-]{10,17}$");
 
